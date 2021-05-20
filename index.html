@@ -8,125 +8,150 @@
 
 <body>
     
-    <header class="Header">
-    <nav class="navigation">
-        <img src="Reservia ressources EN/images/logo/Reservia@3x.png">
-        <div class="topnav">
-            <a href="#">Accommodations</a>
-            <a href="#">Activities</a>
+    <header>
+    
+        <nav class="main-nav">
+        <a href="index.html">
+        <img src="Reservia ressources EN/images/logo/Reservia@3x.png" alt="reservialogo" title="reservialogo">
+        </a>
+        <div class="nav">
+            <a href="Accomm">Accommodations</a>
+            <a href="Act">Activities</a>
             <a href="#">Sign Up</a>
         </div>
-        <h4>Find a place for your dream vacation</h4>
-        <h6>Downtown or in nature</h6>
+        <h1>Find a place for your dream vacation</h1>
+        <p>Downtown or in nature</p>
         <form class="search">
-            <input type="text" placeholder="Marseille, France" name="search">
-            <button type="submit">Search</button>
+            <i class="fas fa-map-marker-alt" aria-hidden="true"> ::before </i>
+            <input class="bar" type="text" placeholder="Marseille, France" name="search">
+            <button class="button" type="submit">Search</button>
         </form>
-        <div class="btn">
-            <a>Filters</a>
-            <button class="btn">Low cost</button>
-            <button class="btn">Family-friendly</button>
-            <button class="btn">Romantic</button>
-            <button class="btn">Pets Allowed</button>
+        <div class="btn-wrap">
+            <div class="filter">
+                <span>
+                    <b>Filters</b>
+                </span>
+            </div>
+            <button class="filters" type="button">
+                <i class="fas fa-money-bill-wave" aria-hidden="true">::before</i>
+                <span>
+                    <b>Low cost</b>
+                </span>
+            </button>
+            <button class="filters" type="button">
+                <i class="fas fa-child" aria-hidden="true"> ::before</i>
+                <span>
+                    <b>Family-friendly</b>
+                </span>
+            </button>
+            <button class="filters" type="button">
+                <i class="fas fa-heart" aria-hidden="true">::before</i>
+                <span>
+                    <b>Romantic</b>
+                </span>
+            </button>
+            <button class="filters">
+                <i class="fas fa-dog" aria-hidden="true">::before</i>
+                <span>
+                    <b>Pets Allowed</b>
+                </span>
+            </button>
         </div>
     </nav>
     </header>
+    <main>
+        <div class="section-wrap">
+            <section class="accomm" id="accomm">
+                <h2>Accommodations in Marseille</h2>
+                <div class="accomm-card">
+                    <section class="card">
+                        <a href=#>
+                            <img src="Reservia ressources EN/images/hebergements/3_medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Auberge la Canebière">
+                            <h3>Auberge la Canebière</h3>
+                            <p>
+                                Night starting at
+                                <b>25€</b>
+                            </p>
+                            <div class="ratings">
+                                <i class="blue fas fa-star">
+                                    ::before
+                                </i>
+                                <i class="blue fas fa-star">
+                                    ::before
+                                </i>
+                                <i class="blue fas fa-star">
+                                    ::before
+                                </i>
+                                <i class="blue fas fa-star">
+                                    ::before
+                                </i>
+                                <i class="grey fas fa-star">
+                                    ::before
+                                </i>
+                            </div>
+                        </a>
+                    </section>
+                    <section class="card">
+                        <a href="#">
+                           <img src="Reservia ressources EN/images/hebergements/3_medium/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="Hôtel du Port">
+                           <h3>Hôtel du Port</h3>
+                           <p>
+                               Night starting at
+                               <b>52€</b>
+                           </p>
+                           <div class="ratings">
+                            <i class=" blue fas fa-star" aria-hidden="true">
+                                ::before
+                            </i>
+                            <i class=" blue fas fa-star" aria-hidden="true">
+                                ::before
+                            </i>
+                            <i class=" blue fas fa-star" aria-hidden="true">
+                                ::before
+                            </i>
+                            <i class=" blue fas fa-star" aria-hidden="true">
+                                ::before
+                            </i>
+                            <i class=" blue fas fa-star" aria-hidden="true">
+                                ::before
+                            </i>
+                           </div>
+                        </a>
+                    </section>
+                    <section class="card">
+                        <a href="#">
+                           <img src="Reservia ressources EN/images/hebergements/3_medium/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="Les mouettes Hotel">
+                           <h3>Les mouettes Hotel</h3>
+                           <p>
+                               Night starting at
+                               <b>76€</b>
+                           </p>
+                           <div class="ratings">
+                            <i class="blue fas fa-star" aria-hidden="true">
+                                ::before
+                            </i>
+                            <i class="blue fas fa-star" aria-hidden="true">
+                                ::before
+                            </i>
+                            <i class="blue fas fa-star" aria-hidden="true">
+                                ::before
+                            </i>
+                            <i class="blue fas fa-star" aria-hidden="true">
+                                ::before
+                            </i>
+                            <i class="grey fas fa-star" aria-hidden="true">
+                                ::before
+                            </i>
+                           </div>
+                        </a>
+                    </section>
+                </div>
+            </section>
+        </div>
+    </main>
     
-    <article class="article">
-        <h5>Accommodations in Marseille</h5>
-         
-        <div class="accommodation">
-            <img src="Reservia ressources EN/images/hebergements/2_large/marcus-loke-WQJvWU_HZFo-unsplash.jpg">
-            <p>Auberge la Cannebière</p>
-            <p>Night starting at 25€</p>
-        </div>
         
-        <div class="accommodation">
-            <img src="Reservia ressources EN/images/hebergements/2_large/fred-kleber-gTbaxaVLvsg-unsplash.jpg">
-            <p>Hôtel du Port</p>
-            <p>Night starting at 52€</p>
-        </div>
-
-        <div class="accommodation">
-            <img src="Reservia ressources EN/images/hebergements/2_large/reisetopia-B8WIgxA_PFU-unsplash.jpg">
-            <p>Les mouettes Hotel</p>
-            <p>Night starting at 76€</p>
-        </div>
-
-        <div class="accommodation">
-            <img src="Reservia ressources EN/images/hebergements/2_large/annie-spratt-Eg1qcIitAuA-unsplash.jpg">
-            <p>Hôtel de la mer</p>
-            <p>Night starting at 46€</p>
-        </div>
-
-        <div class="accommodation">
-            <img src="Reservia ressources EN/images/hebergements/2_large/nicate-lee-kT-ZyaiwBe0-unsplash.jpg">
-            <p>Auberge Le Panier</p>
-            <p>Night starting at 23€</p>
-        </div>
-
-        <div class="accommodation">
-            <img src="Reservia ressources EN/images/hebergements/2_large/febrian-zakaria-M6S1WvfW68A-unsplash.jpg">
-            <p>Hôtel chez Amina</p>
-            <p>Night starting 96€</p>
-        </div>
-    </article>
-
-    <aside class="aside">
-        <h5>Most Popular</h5>
         
-        <div class="popular">
-            <img src="Reservia ressources EN/images/hebergements/2_large/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg">
-            <p>Morning Sun Hotel</p>
-            <p>Night starting at 128€</p>
-        </div>
-        
-        <div class="popular">
-            <img src="Reservia ressources EN/images/hebergements/2_large/aw-creative-VGs8z60yT2c-unsplash.jpg">
-            <p>Au coeur de l'eau Bed and Breakfast</p>
-            <p>Night starting at 71€</p>
-        </div>
-
-        <div class="popular">
-            <img src="Reservia ressources EN/images/hebergements/2_large/febrian-zakaria-sjvU0THccQA-unsplash.jpg">
-            <p>Tout bleu et Blanc Hotel</p>
-            <p>Night starting at 68€</p>
-        </div>
-    </aside>
-
-    <article class="article2">
-        <h5>Activities in Marseille</h5>
-
-        <div class="activities">
-            <img src="Reservia ressources EN/images/activites/2_large/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg">
-            <p>Old port</p>
-        </div>
-
-        <div class="activities">
-            <img src="Reservia ressources EN/images/activites/2_large/paul-hermann-QFTrLdQIRhI-unsplash.jpg">
-            <p>Pomègues Fort</p>
-        </div>
-
-        <div class="activities">
-            <img src="Reservia ressources EN/images/activites/2_large/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg">
-            <p>Frioul Island</p>
-        </div>
-
-        <div class="activities">
-            <img src="Reservia ressources EN/images/activites/2_large/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg">
-            <p>Calanques National Park</p>
-        </div>
-
-        <div class="activities">
-            <img src="Reservia ressources EN/images/activites/2_large/florian-wehde-xW9e8gdotxI-unsplash.jpg">
-            <p>Notre-Dame-de-la-Garde</p>
-        </div>
-
-        <div class="activities">
-            <img src="Reservia ressources EN/images/activites/2_large/lena-paulin-wH2-EJoDcV0-unsplash.jpg">
-            <p>Longchamp Park</p>
-        </div>
-    </article>
 
     <footer class="footer">
         <nav class="bottomnav">
