@@ -377,3 +377,7 @@ h2 {
         border: 5px solid orange;
     }
 }
+
+::before{
+    content: none;
+}
