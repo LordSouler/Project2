@@ -55,7 +55,7 @@ h1 {
 }
 
 .bar {
-    height: 35px;
+    height: 30px;
     border-color: white;
 }
 
@@ -236,7 +236,7 @@ h2 {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .pop-card {
@@ -246,9 +246,9 @@ h2 {
     margin: 3%;
 }
 
-.pop-card p, .pop-card h3, .star{
+.pop-card p, .pop-card h3, .ratings{
      /* margin: -.5px 0; */
-     margin-left: 1px;
+     margin-left: -1px;
      font-size: 0.75rem;
 }
 
@@ -361,7 +361,7 @@ h2 {
     flex-direction: column;
 }
 
-#our-accomm {
+#ouraccomm {
     display: flex;
     flex-direction: column;
 }
@@ -382,7 +382,7 @@ h2 {
        width: 50%;
    }
 
-    .card {
+    .accomm-card {
     width: 40%;
    }
 
@@ -391,7 +391,8 @@ h2 {
    }
 
    .pop-card {
-       height: 140px;
+       height: 165%;
+       width: 92.5%;
    }
 
    .pop-card img {
@@ -554,7 +555,7 @@ h2 {
         padding: 0;
     }
 
-    .card {
+    .accomm-card {
         width: 100%;
         box-shadow: 10px 5px 5px #f2f2f2;
         padding: 0;
@@ -580,7 +581,7 @@ h2 {
         width: 95%;
     }
 
-    #foot-card-wrap{
+    #footer-card-wrap{
         flex-direction: column;
     }
 }
