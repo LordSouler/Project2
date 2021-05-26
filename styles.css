@@ -88,8 +88,8 @@ h1 {
 .btn-wrap {
     display: inline-flex;
     flex-wrap: wrap;
-    width: 65%;
-    justify-content: space-evenly;
+    width: 60%;
+    justify-content: space-between;
     white-space: nowrap;
 }
 
@@ -98,7 +98,7 @@ h1 {
 }
 
 .filt span{
-    font-size: 1.00rem;
+    font-size: .95rem;
 }
 
 .filt {
@@ -121,7 +121,7 @@ h1 {
 
 .filter {
     background-color: white;
-    border-radius: 20px;
+    border-radius: 30px;
     border-color: lightgray;
     font-size: 1rem;
    /* padding: 0 8px 0 4px; */
