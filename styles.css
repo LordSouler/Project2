@@ -308,7 +308,7 @@ h2 {
     border-top-right-radius: 15px;
 }
 
-.activ-large img {
+.large img {
     height: 300px;
 }
 
@@ -376,8 +376,4 @@ h2 {
         flex-direction: column-reverse;
         border: 5px solid orange;
     }
-}
-
-::before{
-    content: none;
 }
