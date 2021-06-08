@@ -602,4 +602,12 @@ h2 {
     #footer-card-wrap{
         flex-direction: column;
     }
+
+    #ouraccomm{
+        padding: 0%;
+    }
+
+    #assist{
+        padding: 0%;
+    }
 }
