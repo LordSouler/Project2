@@ -412,6 +412,14 @@ h2 {
    .pop-card img {
        height: 140px;
    }
+
+   #ouraccomm {
+       padding-left: 5%;
+   }
+
+   #assist {
+       padding-left: 10%;
+   }
 }
 
 @media screen and (max-width: 450px) {
